@@ -1,0 +1,42 @@
+/* 여기에 스타일을 구현해 주세요 */
+
+body {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.avatarsUp,
+.avatarsDown {
+  display: flex;
+  margin: 10px;
+  gap: 20px;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.avatar::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  bottom: 2px;
+  right: 2px;
+  border: 2px solid white;
+  background-color: #dbdbdb;
+}
+
+.avatarsUp .avatar:nth-child(2)::after,
+.avatarsUp .avatar:nth-child(4)::after,
+.avatarsDown .avatar:nth-child(1)::after,
+.avatarsDown .avatar:nth-child(2)::after {
+  background-color: #4cfe88;
+}
