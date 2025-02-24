@@ -5,4 +5,7 @@
 ## 마크다운
 
 - [마크다운 문법](./src/md/markdown.md)
-- [회고](./src/md/retrospect.md)
+- [마크다운 회고](./src/md/retrospect.md)
+- [avatar HTML](./src/avatars/avatars.html)
+- [avatar CSS](./src/avatars/styles/avatars.css)
+- [avatar 회고](./src/avatars/avatars.md)
